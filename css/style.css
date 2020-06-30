@@ -1,0 +1,11 @@
+.flexbox{
+    height: 250px;
+    border: 1px solid blue;
+    display:flex;
+    flex-direction:column;
+}        
+.flexbox div{
+    background: pink;
+    width: 300px;
+    margin: 15px;
+}
