@@ -1,27 +1,51 @@
+*{margin:0px;}/*isso zera cada medida padrão, assim, 
+você pode escolher as medidas e cores que serão usadas*/
+
 #corpo{
     border: solid red 1px;
+    width:900px;
+    margin:0 auto;
 }
-header ul{
-    border:purple solid 1px;
-    background-color:#474646;
+header, ul{
+    display:flex;
+    background-color:#262121;
     color: #a3a1a1;
     font-family: Arial, Helvetica, sans-serif; 
-    height:60px;
-    margin-top:0px;     
+    height:50px;
+    padding-left:0;    
 }
 ul li{
     display:inline-block;
-    border:solid 1px white;
-    padding:20px; 
-    margin-right:-5px;      
+    padding:15px;
+    border:solid 1px #1c1a1a;
+    
 }
 li:hover{
     color:white;
     background-color:#000000;
 }
-.texto{
+form{
+    padding-left:220px;
+    margin-top:6px;
+}
+#pesquisa{
+    border-radius:5px;
+    background-color:#fcfcfc;
+    width:165px;
+    height:26px;
+}
+#topodir {
+    font-size:16px;
+    background-color:#fcfcfc;
+    color:#000000;
+    border-radius:5px;
+    width:80px;
+    height:36px;
+    padding:2px;  
+}
+.principal{
     text-align:center;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;  
 }
 h1{
     color:#000000;
@@ -35,17 +59,32 @@ h1{
 }
 input{
     background-color:#719bce;
-    color:white;
+    color:#fcfcfc;
+    padding:4px 2px;
+    width:8%; 
     
 }
 .flexbox{
     height: 250px;
+    width: 900px;
     border: 1px solid blue;
+    display:flex;/*para transformar o elemento em um flex container, vc tem que colocar o display:flex no container, isso faz com que esse elemento pai, que está com esse display:flex;, se vire para seguir o que vc está passando para ele, assim vc não precisa mais mexer nos seus lementos filhos(flex itens)*/
+    flex-flow:row nowrap;/*indica que vc quer que os flex itens dele, fiquem alinhados da esquerda para a direira e que não haja quebra de linha quando a tela for diminuida. Ao invés de usar o flex-wrap e o flex-direction, vc usa o flex-flow que é o atalho dos dois*/;
+    background-color:#dddddb;
+    margin:0 auto;
+    justify-content:center;
+
+}      
+.flexbox img{
+    width:250px;   
+}
+.flexbox:nth-child(5){
+    justify-content:space-between;/*vocÊ tem que considerar a quantidade de intens na ordem que consta no código por completo para contar a quantidade de filhos*/   
+}
+.carrossel{
     display:flex;
-    flex-direction:column;
-}        
-.flexbox div{
-    background: pink;
-    width: 300px;
-    margin: 15px;
+}
+.carrossel li{
+    overflow:hidden;
+    display:inline;
 }
