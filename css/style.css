@@ -26,13 +26,17 @@ li:hover{
 }
 form{
     padding-left:220px;
-    margin-top:6px;
+    
+    
+    
 }
 #pesquisa{
     border-radius:5px;
     background-color:#fcfcfc;
     width:165px;
-    height:26px;
+    height:18px;
+    margin-top:7px;
+    
 }
 #topodir {
     font-size:16px;
@@ -40,8 +44,8 @@ form{
     color:#000000;
     border-radius:5px;
     width:80px;
-    height:36px;
-    padding:2px;  
+    height:30px;
+    margin-top:2px;
 }
 .principal{
     text-align:center;
@@ -49,42 +53,79 @@ form{
 }
 h1{
     color:#000000;
-    font-size:56px;
+    font-size:58px;
     margin-top:60px;
     margin-bottom:10px;
 }
-.texto h3{
-    color:red;
-    font-weight: normal;
+.texto3 {
+    font-size:18px;
 }
+
 input{
-    background-color:#719bce;
+    background-color:#546dc9;
     color:#fcfcfc;
-    padding:4px 2px;
-    width:8%; 
+    margin-top:10px;
+    padding:8px 1px;
+    width:12%;
+    border-radius:5px;
+    border:none; 
     
 }
 .flexbox{
-    height: 250px;
-    width: 900px;
     border: 1px solid blue;
-    display:flex;/*para transformar o elemento em um flex container, vc tem que colocar o display:flex no container, isso faz com que esse elemento pai, que está com esse display:flex;, se vire para seguir o que vc está passando para ele, assim vc não precisa mais mexer nos seus lementos filhos(flex itens)*/
-    flex-flow:row nowrap;/*indica que vc quer que os flex itens dele, fiquem alinhados da esquerda para a direira e que não haja quebra de linha quando a tela for diminuida. Ao invés de usar o flex-wrap e o flex-direction, vc usa o flex-flow que é o atalho dos dois*/;
-    background-color:#dddddb;
-    margin:0 auto;
-    justify-content:center;
-
-}      
-.flexbox img{
-    width:250px;   
-}
-.flexbox:nth-child(5){
-    justify-content:space-between;/*vocÊ tem que considerar a quantidade de intens na ordem que consta no código por completo para contar a quantidade de filhos*/   
-}
-.carrossel{
     display:flex;
+    flex-flow:row nowrap;
+    margin-top:2%;
+    margin-bottom:0px;
+    justify-content:space-around;
+    height:210px;
+    width:100%;
+    background-color:#dddddb;
 }
 .carrossel li{
     overflow:hidden;
     display:inline;
+    padding:1px;
+    width:100%;
+    height:100%;
+    border:green solid 2px;
 }
+.visual{
+    font-size:20px;
+    color:#848484;
+    margin-bottom:10%;
+
+}
+h2 {
+    font-size:34px;
+    margin-top:30px;
+}
+h5{
+    color:#848484;
+    margin-top:6px;
+}
+
+h2, h5{
+    text-align:center;
+    font-family:arial;
+}
+.flexbox img{
+    height:100%;
+}
+.flexbox:nth-child(6){
+    font-size:16px;
+    color:#1a87b2;
+    font-family:Arial, Helvetica, sans-serif;
+    margin:10px 67px;
+    background-color:#fcf9f9;
+    width:790px;
+    height:26px;
+    justify-content:space-between;
+    font-weight:bolder;   
+}
+.flexbox .p2{
+    margin: 0px 0pc 0px 40px;
+    
+}
+
+
