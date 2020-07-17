@@ -6,9 +6,11 @@
         <meta name="author" content="Kamilla Vieira">
         <meta name="description" content="Site responsivo">
         <meta name="keywords" content="html5, tecnologia, site responsivo">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/style.css" rel="stylesheet"/>
+        <script type="text/javascript" src="js/arquivo.js"></script>
     </head>
-    <body>
+    <body onLoad="slide1 ()">
         <div id="corpo">
             <header>
                 <ul><li>Logo</li>
@@ -22,29 +24,20 @@
                     <input type="submit" value="Search" id="topodir">
                 </form>
            </header>
-                <!--
-                <div class="gallery items-2">
-                    <div class="itens-1" class="control-operator"></div>
-                    <div class="itens-2" class="control-operator"></div>
-
-                    <figure class="item"> 
-                    <h1><img src="imagens/banner-1.jpg"></h1>
-                    </figure>
-                    <figure class="item">
-                        <h1> <img src="imagens/banner-2.jpg"></h1>
-                    </figure>
+           
+                <div class="gallery">                    
+            <img src="imagens/banner-1.jpg" alt="slide show" id="banner">
+                </div>
+                <div class="setas">
+                    <div class="esquerdo"><</div>
+                    <div class="direito">></div>
                 </div> 
-                <div class="controls">
-                    <a href="#item-1" class="control-buttom">.</a>
-                    <a href="#item-2" class="control-buttom">.</a>
-                    
-                    
-                </div>-->
                 <div class="principal">
-                <h1 class="texto">Efficiently Unleash</h1>
-                <h3 class="texto3">Dramatically maintain clicks-and-mortar solutions without functional solutions</h3>
-                <input type="submit" value="Uniessah Now"/>    
-                </div>  
+                    <h1 class="texto">Efficiently Unleash</h1>
+                    <h3 class="texto3">Dramatically maintain clicks-and-mortar solutions without functional solutions</h3>
+                    <input type="submit" value="Uniessah Now"/>    
+                </div> 
+                
                 <h2>Superior Collaboration <span class="visual">Visualize Quality</span></h2> 
                 <h5>Lorem ipsum gravida ut vitae cras vulputate fermentum suspendisse lacinia, volutpat molestie malesuada luctus viverra gravida tincidunt sodales consectetur, phasellus maecenas non eleifend. </h6>
                 <div class="flexbox">

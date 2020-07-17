@@ -5,6 +5,7 @@ você pode escolher as medidas e cores que serão usadas*/
     border: solid red 1px;
     width:900px;
     margin:0 auto;
+    overflow:hidden;
 }
 header, ul{
     display:flex;
@@ -26,39 +27,72 @@ li:hover{
 }
 form{
     padding-left:220px;
-    
-    
-    
 }
 #pesquisa{
     border-radius:5px;
     background-color:#fcfcfc;
     width:165px;
-    height:18px;
+    height:16px;
     margin-top:7px;
     
 }
 #topodir {
-    font-size:16px;
+    font-size:14px;
     background-color:#fcfcfc;
     color:#000000;
     border-radius:5px;
-    width:80px;
-    height:30px;
-    margin-top:2px;
+    width:70px;
+    height:34px;
+    margin-top:4px;
+    padding:4px;
+    cursor:pointer;
+
 }
-.principal{
+#topodir:hover{
+    transition-duration:0.2s;
+    background-color:#e3e5e7;
+    padding:2px;
+}
+.esquerdo, .direito{
+    font-size:30px;
+    position:relative;
+    top:-260px;
+    color:#ffffff;
+    width:120px;
+    height:210px;
+    background-color: rgba(44, 62, 80, 0.6);
+    margin-top:0px;
     text-align:center;
-    font-family:Arial, Helvetica, sans-serif;  
+    font-weight:900;
+    line-height:7;/*espaço entre linhas*/
+    cursor:pointer;/*indica quando o cursos do mouse está no elemento*/
 }
+.principal {
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;          
+}
+.principal {
+    margin: -300px;
+    position:relative;         
+}
+.esquerdo{
+    float:left;
+    margin-left:20px;
+}
+.direito{
+    float:right;
+    margin-right:20px;
+}
+
 h1{
     color:#000000;
-    font-size:58px;
+    font-size:52px;
     margin-top:60px;
     margin-bottom:10px;
 }
 .texto3 {
-    font-size:18px;
+    font-size:16px;
+    
 }
 
 input{
@@ -66,29 +100,39 @@ input{
     color:#fcfcfc;
     margin-top:10px;
     padding:8px 1px;
-    width:12%;
+    width:110px;
     border-radius:5px;
     border:none; 
+    cursor:pointer;
+   
     
 }
+
+input:hover { 
+    transition-duration:0.4s;
+    background-color:#36609e;
+    border:solid 1px #223c63;
+
+}
+
 .flexbox{
-    border: 1px solid blue;
     display:flex;
     flex-flow:row nowrap;
-    margin-top:2%;
     margin-bottom:0px;
     justify-content:space-around;
     height:210px;
     width:100%;
     background-color:#dddddb;
 }
-.carrossel li{
-    overflow:hidden;
-    display:inline;
+.gallery{
+    max-width:900px;
+    margin:0 auto;
+}
+.gallery #banner{
     padding:1px;
-    width:100%;
-    height:100%;
-    border:green solid 2px;
+    max-width:100%;
+    border:green solid 1px;
+    
 }
 .visual{
     font-size:20px;
@@ -98,21 +142,24 @@ input{
 }
 h2 {
     font-size:34px;
-    margin-top:30px;
+    margin-top:500px;
+    
 }
 h5{
     color:#848484;
     margin-top:6px;
+    margin-bottom:0px;
 }
 
 h2, h5{
     text-align:center;
     font-family:arial;
-}
+}   
+ }
 .flexbox img{
     height:100%;
 }
-.flexbox:nth-child(6){
+.flexbox:nth-child(8){
     font-size:16px;
     color:#1a87b2;
     font-family:Arial, Helvetica, sans-serif;
@@ -121,11 +168,16 @@ h2, h5{
     width:790px;
     height:26px;
     justify-content:space-between;
-    font-weight:bolder;   
+    font-weight:bolder;  
+     
 }
 .flexbox .p2{
     margin: 0px 0pc 0px 40px;
     
+    
+}
+.flexbox p{
+    cursor:pointer;
 }
 
 
