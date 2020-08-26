@@ -20,7 +20,6 @@ ul li{
     display:inline-block;
     padding:15px;
     border:solid 1px #1c1a1a;
-    
 }
 li:hover{
     color:white;
@@ -36,7 +35,7 @@ form{
     height:18px;
     margin-top:7px;   
 }
-#topodir {
+#topodir{
     font-size:14px;
     background-color:#ffffff;
     color:#000000;
@@ -72,11 +71,11 @@ form{
 .direito{
     background-image: linear-gradient(to right, rgba(005, 0, 0, 0), rgba(005,0,0,.5));
 }
-.principal {
+.principal{
     text-align:center;
     font-family:Arial, Helvetica, sans-serif;          
 }
-.principal {
+.principal{
     position:relative;         
 }
 .esquerdo{
@@ -93,7 +92,7 @@ h1{
     margin-top:60px;
     margin-bottom:10px;
 }
-.texto3 {
+.texto3{
     font-size:16px;    
 }
 input{
@@ -111,7 +110,6 @@ input:hover {
     background-color:#36609e;
     border:#223c63 1px solid;
 }
-
 .gallery{
     max-width:900px;
     margin:0 auto;
@@ -126,10 +124,9 @@ input:hover {
 }
 .visual{
     font-size:20px;
-    color:#848484;
-   
+    color:#848484; 
 }
-h2 {
+h2{
     font-size:34px;
     margin-top:145px;    
     text-align:center;
@@ -143,7 +140,6 @@ h5{
     height:2%;
     border:red 1px solid;  
 }  
- 
 .flexbox{
     display:flex;
     justify-content:space-around;
