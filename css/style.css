@@ -2,7 +2,7 @@
 você pode escolher as medidas e cores que serão usadas*/
 
 #corpo{
-    border: solid red 1px;
+    border: solid white 1px;
     width:900px;
     margin:0 auto;
     overflow:hidden;
@@ -149,7 +149,7 @@ h5{
 }
 .flexbox img{
     height:100%;
-    border:red solid 1px;
+    border:white solid 1px;
     flex-flow:row nowrap; 
 }
 .flexbox:nth-child(7){
