@@ -6,17 +6,49 @@
         <meta name="author" content="Kamilla Vieira">
         <meta name="description" content="Site responsivo">
         <meta name="keywords" content="html5, tecnologia, site responsivo">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/style.css" rel="stylesheet"/>
+        <script type="text/javascript" src="js/arquivo.js"></script>
     </head>
-    <body>
-        <h2>aula de Display Flex</h2>
-        <p>Acomodar ou distribuir elementos de modo fácil</p>
-        <p>Ajuda a centralizar na vertical</p>
-        <div class="flexbox">
-            <div class="div1">1</div>
-            <div class="div2">2</div>
-            <div class="div3">3</div>
-            <div class="div4">4</div>
+    <body onLoad="slide1 ()">
+        <div id="corpo">
+            <header>
+                <ul><li>Logo</li>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Products</li>
+                    <li>Services</li>
+                </ul>
+                <form>
+                    <input type="text" id="pesquisa">
+                    <input type="submit" value="Search" id="topodir">
+                </form>
+           </header>          
+                <div class="gallery">                    
+            <img src="imagens/banner-1.jpg" alt="slide show" id="banner">
+                </div>
+            
+                <div class="principal">
+                    <h1 class="texto">Efficiently Unleash</h1>
+                    <h3 class="texto3">Dramatically maintain clicks-and-mortar solutions without functional solutions</h3>
+                    <input type="submit" value="Uniessah Now"/> 
+                     <div class="setas">
+                    <div class="esquerdo"><</div>
+                    <div class="direito">></div>
+                </div>    
+                </div>                 
+                <h2>Superior Collaboration <span class="visual">Visualize Quality</span></h2> 
+                <h5>Lorem ipsum gravida ut vitae cras vulputate  ermentum suspendisse lacinia, volutpat molestie malesuada luctus viverra gravida tincidunt sodales consectetur, phasellus maecenas non eleifend. </h5>
+                <div class="flexbox">
+                    <img src="imagens/produto-1.jpg" class="img1">
+                    <img src="imagens/produto-2.jpg" class="img2">
+                    <img src="imagens/produto-3.jpg" class="img3">
+                </div>
+                <div class="flexbox">
+                    <p>Efficiently Unleash</p>
+                    <p class="p2">Completely Synergize</p>
+                    <p>Dynamically &nbsp Procrastinate</p> 
+                </div>
         </div>
     </body>
 </html>
